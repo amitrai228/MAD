@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
     <string-array name="tasks">
-    <item>Eat2</item>
-    <item>Sleep2</item>
-    <item>Code2</item>
-    <item>Repeat2</item>
-</string-array>
+        <item>Eat</item>
+        <item>Sleep</item>
+        <item>Code</item>
+        <item>Repeat</item>
+    </string-array>
+    <string-array name="todo_description">
+        <item>Have meal</item>
+        <item>Take rest</item>
+        <item>Work</item>
+        <item>Repeat all the things again tomorrow</item>
+    </string-array>
     <attr format="boolean" name="barrierAllowsGoneWidgets"/>
     <attr format="enum" name="barrierDirection">
         <enum name="left" value="0"/>

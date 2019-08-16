@@ -12,6 +12,7 @@ anim abc_slide_out_top
 anim abc_tooltip_enter
 anim abc_tooltip_exit
 array tasks
+array todo_description
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -680,6 +681,7 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
+id button_detail
 id center
 id center_horizontal
 id center_vertical
@@ -695,6 +697,7 @@ id custom
 id customPanel
 id decor_content_parent
 id default_activity_button
+id detail_button
 id dimensions
 id direct
 id disableHome
@@ -829,6 +832,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_todo_detail
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

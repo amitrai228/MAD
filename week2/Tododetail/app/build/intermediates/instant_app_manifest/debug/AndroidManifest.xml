@@ -19,6 +19,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.todo_detail.todo_detail" />
         <activity android:name="com.example.todo_detail.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
