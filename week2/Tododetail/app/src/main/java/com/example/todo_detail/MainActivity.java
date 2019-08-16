@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("MainActivity", "onCreate()");
         super.onCreate(savedInstanceState);
         setContentView(activity_main);
-        textView = findViewById(R.id.result);
+        textView = findViewById(R.id.text_View);
 
 
         Resources res = getResources();
@@ -98,6 +98,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void previous_click(View view) {
+        if (currentIndex > 0){
+            currentIndex = currentIndex % tasks.length;
+        } else {
+            currentIndex = tasks.length-1;
+        }
+        currentIndex = --currentIndex % tasks.length;
         textView.setText(tasks[currentIndex]);
     }
 

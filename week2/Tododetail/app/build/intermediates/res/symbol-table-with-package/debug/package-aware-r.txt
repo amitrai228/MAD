@@ -676,12 +676,12 @@ id alertTitle
 id all
 id always
 id async
+id back_button
 id barrier
 id beginning
 id blocking
 id bottom
 id buttonPanel
-id button_detail
 id center
 id center_horizontal
 id center_vertical
@@ -744,7 +744,6 @@ id previous_button
 id progress_circular
 id progress_horizontal
 id radio
-id result
 id right
 id right_icon
 id right_side
@@ -786,6 +785,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id text_View
 id time
 id title
 id titleDividerNoCustom
