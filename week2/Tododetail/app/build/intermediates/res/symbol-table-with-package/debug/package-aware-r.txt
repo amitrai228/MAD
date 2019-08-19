@@ -686,6 +686,7 @@ id center
 id center_horizontal
 id center_vertical
 id chains
+id checkBoxIsComplete
 id checkbox
 id chronometer
 id clip_horizontal
@@ -744,6 +745,7 @@ id previous_button
 id progress_circular
 id progress_horizontal
 id radio
+id result2
 id right
 id right_icon
 id right_side
@@ -785,7 +787,6 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
-id text_View
 id time
 id title
 id titleDividerNoCustom

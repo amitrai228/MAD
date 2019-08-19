@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("MainActivity", "onCreate()");
         super.onCreate(savedInstanceState);
         setContentView(activity_main);
-        textView = findViewById(R.id.text_View);
+        textView = findViewById(R.id.result2);
 
 
         Resources res = getResources();
